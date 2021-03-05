@@ -19,7 +19,7 @@ h1 {
 }
 
 .suggestion li {
-  background-image: linear-gradient(rgb(184, 240, 184), green);
+  background-image: linear-gradient(rgb(240, 200, 184), rgb(212, 2, 2));
   flex-wrap: wrap;
   padding: 8px;
   border-radius: 4px;
