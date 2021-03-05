@@ -1,5 +1,15 @@
-#search {
-    background-color: purple;
+h1 {
+  text-align: center;
 }
 
-.search
+body {
+  background-color: purple;
+}
+
+.header {
+  display: flex;
+  justify-content: ;
+}
+
+.search {
+}
