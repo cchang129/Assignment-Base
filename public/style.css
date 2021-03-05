@@ -1,5 +1,11 @@
-#search {
-    background-color: purple;
+body {
+  background-color: purple;
 }
 
-.search
+.header {
+  display: flex;
+  justify-content: ;
+}
+
+.search {
+}
