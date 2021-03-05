@@ -1,25 +1,25 @@
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=, initial-scale=1.0">
-        <title>Assignment 1 by Calvin and Takahiro</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js" charset="utf-8"></script>
-    </head>
-    <body>
-    
-        <h1>Assignment 1 - Calvin Chang and Takahiro Kawasaki</h1>
-
-        <div class="search">
-            <input type="text" placeholder="Search for..." name="search" onkeyup="onkeyupName()" id="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-
-            <ul id="itemList">
-                <li><a href="#">Type of restaurant</a></li>
-                <li><a href="#">Zip code</a></li>
-                <li></li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href='style.css'/>
+</head>
+<body>
+    <div class= 'header'><h1><strong>Assignment 1 - Calvin Chang and Takahiro Kawasaki</strong></h1></div>
+    <div class='searcher'>
+        <div class= 'container'>
+        <form> 
+            <div class='bar'>
+                <label for='search'>Search </label>
+                <input type="text" class='search' name="search" id="search" placeholder="please enter an option">
+            </div>
+            <ul class='suggestions'>
+                <li>Search for a restaurant name, category, or zip code. </li>
             </ul>
+        </form>
         </div>
-
-    </body>
-    </html>
+    </div>
+</body>
+<script src='script.js'></script>
+</html>
