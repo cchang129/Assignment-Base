@@ -1,25 +1,51 @@
 body {
-  background-color: purple;
+  background: rgb(5, 160, 70);
 }
 
-h1 {
+.header {
   display: flex;
   justify-content: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: royalblue;
-  font-size: auto;
-  padding: 0 0 25 px;
+  font-family: "Lobster";
+  color: #00e1ff;
+  font-size: 40px;
+  padding: 0 0 25px;
 }
 
-.search {
+.searcher {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: space-between;
 }
 
-.suggestion li {
-  background-image: linear-gradient(rgb(240, 200, 184), rgb(212, 2, 2));
+.container {
+  max-width: 600px;
+}
+
+.bar {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: rgb(8, 32, 167);
+  padding: 8px;
+  border-radius: 4px;
+  justify-content: center;
+}
+
+.name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.address {
+  font-style: italic;
+}
+
+.category {
+  font-style: italic;
+}
+
+.suggestions li {
+  background-image: linear-gradient(rgb(185, 153, 236), white);
   flex-wrap: wrap;
   padding: 8px;
   border-radius: 4px;
