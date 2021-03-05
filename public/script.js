@@ -32,3 +32,8 @@ const suggestions = document.querySelector('suggestions');
 
 searchInput.addEventListener('change', displayMatches);
 searchInput.addEventListener('keyup', displayMatches);
+
+function search()
+    let input = document.getElementById("search").value
+    input = input.toLowerCase();
+    let x = document.
