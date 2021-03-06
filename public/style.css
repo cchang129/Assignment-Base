@@ -1,12 +1,12 @@
 body {
-  background: rgb(0, 0, 0);
+  background: rgb(152, 121, 255);
 }
 
 .header {
   display: flex;
   justify-content: center;
   font-family: "Georgia";
-  color: #00d9ff;
+  color: #000000;
   font-size: 40px;
   padding: 0 0 25px;
 }
