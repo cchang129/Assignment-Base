@@ -1,5 +1,5 @@
 body {
-  background: rgb(204, 191, 246);
+  background: white;
 }
 
 .header {
@@ -46,6 +46,7 @@ body {
 
 .suggestions li {
   background-image: linear-gradient(rgb(180, 160, 246), rgb(196, 219, 246));
+  text-align: center;
   flex-wrap: wrap;
   padding: 8px;
   border-radius: 4px;
